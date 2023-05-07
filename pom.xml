@@ -105,6 +105,10 @@
 			<id>Simonsators-repo</id>
 			<url>https://simonsator.de/repo</url>
 		</repository>
+		<repository>
+			<id>ME1312.net</id>
+			<url>https://dev.ME1312.net/maven</url>
+		</repository>
 	</repositories>
 	<dependencies>
 		<dependency>
@@ -142,6 +146,12 @@
 			<!--HikariCP 5.0 requires Java 11 or later.
 			As this plugin is supposed to run on Java 8, we cannot upgrade to version 5-->
 			<version>4.0.3</version>
+		</dependency>
+		<dependency>
+			<groupId>net.ME1312.SubServers</groupId>
+			<artifactId>SubServers.Sync</artifactId>
+			<version>23w18a</version>
+			<scope>provided</scope>
 		</dependency>
 	</dependencies>
 	<distributionManagement>
